@@ -1,0 +1,111 @@
+.custom-event-class{
+    width: 100%;
+    height: 30vh;
+}
+.calendar-unit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    font-size: 13px;
+}
+.rbc-event-label{
+    display: none;
+}
+.shcedule-container{
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.shcedule-nav{
+    width: 89%;
+    display: flex;
+    padding-bottom: 20px;
+}
+.shcedule-box{
+    display: flex;
+    flex-direction: row;
+}
+.shcedule-nav-button{
+    padding: 5px 15px;
+    border: none;
+    background-color: #f97c225e;
+    border-radius: 5px;
+    margin-left:10px;
+    color: rgba(0, 0, 0, 0.767);  
+}
+.shcedule-nav-button:hover{
+    background-color: #ff9c2b;
+}
+.shcedule-nav-filter{
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    padding: 2px 50px 2px 2px;
+}
+.background-none
+{ background-color:transparent; }
+
+.modal-overlay-schedule {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+  }
+ .modal-schedule {
+    width: 30vw;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    z-index: 10000;
+  }
+  .modal-content-schedule{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+  }
+  .modal-text-schedule{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  .modal-button-close-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  .modal-button-close{
+    padding: 5px 10px;
+    border: none;
+    background: #088395;
+    color: whitesmoke;
+  }
+  .modal-button-choice{
+    padding: 3px 10px;
+    font-size: 13.5px;
+    border: none;
+    background: #088395;
+    color: whitesmoke;
+    margin-top: 15px;
+    margin-right: 5px;
+  }
+.modal-link{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.modal-text-pad{
+    padding-bottom: 5px;
+}
+  
+  

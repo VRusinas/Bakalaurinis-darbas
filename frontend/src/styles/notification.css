@@ -1,0 +1,21 @@
+.notification-button {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    padding: 1px 5px;
+    text-decoration: none;
+    border-radius: 2px;
+  }
+  .notification-button::before {
+    content: "No ";
+  }
+  
+  .notification-button.has-notifications {
+    background-color: #ff2b2b;
+    color: #ffffff;
+  }
+  
+  .notification-button.has-notifications::before {
+    content: "New ";
+  }
+ 

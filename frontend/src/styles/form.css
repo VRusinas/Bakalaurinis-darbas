@@ -1,0 +1,52 @@
+.form-container{
+width: 100%;
+height:84vh;
+background-image: linear-gradient(rgba(37, 37, 37, 0.753), rgba(53, 53, 53, 0.685)), url("/public/images/signin.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+color:rgba(0, 0, 0, 0.733);  
+font-weight: 500;  
+font-size: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.form-box{
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    border: 1px solid #00000025;
+}
+.form-height-login{
+    height:25vh;
+    padding: 10px;
+}
+.form-height-signin{
+    height:38vh;
+    padding: 10px;
+}
+.form-input{
+    width: 75%;
+    border: none;
+    border-bottom: 1px solid grey;
+
+}
+
+.form-spec-button{
+    padding: 5px 30px;
+    border: none;
+    background: #088395;
+    color: white;
+    border-radius: 5px;
+}
+.error-font{
+    font-size: 12px;
+    padding: 0px 20px;
+}

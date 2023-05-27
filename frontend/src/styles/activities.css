@@ -1,0 +1,39 @@
+.activity-container{
+    width: 90%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px 30px 100px 70px ;
+}
+.activity-create-form{
+    width: 80%;
+    height: 80vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.397); 
+    padding: 30px;
+}
+.activity-split-container{
+    width: 100%;
+    display: flex;
+}
+.activity-right{
+    width: 65%;
+}
+.activity-left{
+    width: 30%;
+}
+.activity-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  
+  }
+  .activities-small-box{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+    background-color: #ffe8d6;
+    padding: 10px;
+  }
+  

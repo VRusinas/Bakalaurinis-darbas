@@ -1,0 +1,26 @@
+.home-container{
+width: 100%;
+height: 84vh;
+background-image: linear-gradient(rgba(41, 41, 41, 0.851), rgba(45, 45, 45, 0.862)), url("/public/images/home-bg.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+text-align: center;
+}
+.subscribtion-box{
+width: 100%;
+height: 82vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.subscribtion-main-title{
+padding: 20px;
+}
+.subscribtion-second-title{
+padding-bottom: 20px;
+}
+
